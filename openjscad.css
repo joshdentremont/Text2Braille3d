@@ -29,6 +29,14 @@ canvas { cursor: move; }
   -webkit-border-radius: 5px;
   border-radius: 5px;
   padding: 10px;
+  width: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#viewer {
+  position: relative;
 }
 
 .parametersdiv .header {
