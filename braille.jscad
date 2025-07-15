@@ -268,7 +268,7 @@ function generate(text)
 		
 		//single uppercase letters are prefaced by the character $
 		find = /([A-ZÄÖÜ])/g;
-		replace = "$$$1";
+		replace = "'$1";
 		text = text.replace(find, replace).toLowerCase();
 		
 		//numbers are prefaced by the character #
